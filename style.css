@@ -1,0 +1,31 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    justify-content: end; 
+    gap: 5px; 
+    padding-left: 0px; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px; 
+    text-align: center;
+    margin-right: 40px;
+}
+
+.border {
+    border-left: 30px solid black;  /* Left border */
+    border-right: 30px solid black; /* Right border */
+    padding: 20px;  /* Optional: To give some padding inside the bordered div */
+    border-width: 60px;
+    height: 675px;
+    
+}
